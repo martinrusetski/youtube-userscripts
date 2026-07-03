@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         YouTube Force Quality
+// @version      1.0.0
 // @match        *://www.youtube.com/*
 // @run-at       document-idle
+// @downloadURL  https://raw.githubusercontent.com/martinrusetski/youtube-userscripts/main/youtube-force-quality.user.js
+// @updateURL    https://raw.githubusercontent.com/martinrusetski/youtube-userscripts/main/youtube-force-quality.user.js
 // ==/UserScript==
 
 // Set your desired quality here:
@@ -38,8 +41,4 @@ setInterval(forceQuality, 2000);
 // Also re-apply on navigation (YouTube is an SPA)
 document.addEventListener('yt-navigate-finish', () => {
   setTimeout(forceQuality, 1000);
-});// ==UserScript==
-// @name        NewScript-1ponqsxt
-// @description This is your new file, start writing code
-// @match       *://*/*
-// ==/UserScript==
+});

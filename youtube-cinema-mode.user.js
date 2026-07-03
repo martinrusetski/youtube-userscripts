@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         YouTube Cinema Mode
+// @version      1.0.0
 // @match        *://www.youtube.com/*
 // @run-at       document-idle
+// @downloadURL  https://raw.githubusercontent.com/martinrusetski/youtube-userscripts/main/youtube-cinema-mode.user.js
+// @updateURL    https://raw.githubusercontent.com/martinrusetski/youtube-userscripts/main/youtube-cinema-mode.user.js
 // ==/UserScript==
 
 // Only run on watch pages

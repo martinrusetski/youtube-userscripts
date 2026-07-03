@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         YouTube Subscriptions Cleaner
+// @version      1.0.0
 // @match        *://www.youtube.com/*
 // @run-at       document-idle
+// @downloadURL  https://raw.githubusercontent.com/martinrusetski/youtube-userscripts/main/youtube-subscriptions-cleaner.user.js
+// @updateURL    https://raw.githubusercontent.com/martinrusetski/youtube-userscripts/main/youtube-subscriptions-cleaner.user.js
 // ==/UserScript==
 
 function clean() {
